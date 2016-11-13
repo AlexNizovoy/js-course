@@ -9,14 +9,14 @@
 
   // 3
   function findMinMax(array, minOrMax) {
-    if ((typeof array != "object") || !(array instanceof Array)) return null;
+    if ((typeof array !== "object") || !(array instanceof Array)) return null;
     var out = array[0];
 
-    if (minOrMax.toString() == "min") {
+    if (minOrMax.toString() === "min") {
       array.forEach(function (element) {
         if (element < out) out = element;
       });
-    } else if (minOrMax.toString() == "max") {
+    } else if (minOrMax.toString() === "max") {
       array.forEach(function (element) {
         if (element > out) out = element;
       });
@@ -28,13 +28,13 @@
   // 4
   function convertArrayToObj(array) {
     var obj = {};
-    var startChar = true; //keys starts from letters
-    var key = 97; // 97 - decimal charcode of 'a'
+    var startChar = true;
+    var key = "a".charCodeAt(0);
     array.forEach(function (element) {
       if (startChar) {
         obj[String.fromCharCode(key)] = element;
         key++;
-        if (key > 122) { // key more than 'z'
+        if (key > "z".charCodeAt(0)) {
           startChar = false;
           key = 1;
         }
@@ -52,11 +52,12 @@
 
     arr2.forEach(function (element) {
       index = arr1.indexOf(element);
-      while (index != -1) { // For complete deleting of duplicates
+      // For complete deleting of duplicates
+      while (index !== -1) {
         arr1.splice(index, 1);
         index = arr1.indexOf(element);
       }
-    })
+    });
 
   }
 
@@ -73,6 +74,6 @@
   var newData = [2, 12, 22, 6, 32, 22];
   var oldData = [12, 5, 7, 17, 22, 32];
   filterNew(newData, oldData);
-  console.log(newData)
+  console.log(newData);
 
 })();
