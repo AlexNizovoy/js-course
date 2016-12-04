@@ -11,6 +11,10 @@
   line-height: 1.5em;
 }
 
+#themes ul li {
+display: inline-block;
+}
+
 #themes {
   text-align: right;
 }
