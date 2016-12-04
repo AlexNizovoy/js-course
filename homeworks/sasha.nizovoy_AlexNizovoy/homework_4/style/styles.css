@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+.wrap {
+  width: 900px;
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  overflow: hidden;
+  font-family: 'Merriweather', serif;
+  line-height: 1.5em;
+}
+
+#themes {
+  text-align: right;
+}
+
+#themes a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  border: none;
+}
+
+#whiteTheme {
+  background-color: #ebebeb;
+}
+
+#blackTheme {
+  background-color: #222;
+}
+
+header {
+  padding: 0px 20px 50px 20px;
+}
+
+header h1 {
+  width: 15%;
+  height: auto;
+  padding: 5px 5px 0px 5px;
+  margin: auto;
+  text-align: center;
+  border-bottom: 3px solid #195c89;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.img-block {
+  display: block;
+  box-sizing: border-box;
+  width: 30%;
+  height: auto;
+  float: left;
+}
+
+.textblock {
+  display: block;
+  box-sizing: border-box;
+  width: 70%;
+  padding: 0px 20px;
+  float: left;
+  color: #333;
+}
+
+.name {
+  font-size: 32px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.prof {
+  color: #666;
+  font-family: 'Inconsolata', monospace;
+  font-size: 22px;
+  margin: 10px 0px;
+}
+
+#contactBtn {
+  display: inline-block;
+  background-color: #195c89;
+  width: 145px;
+  height: 41px;
+  line-height: 41px;
+  font-family: 'Inconsolata', monospace;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1.5px;
+}
+
+.clear {
+  clear: both;
+}
+
+#social {
+  display: block;
+  text-align: center;
+  margin: 20px 0px;
+  font-family: 'Inconsolata', monospace;
+}
+
+#social ul {
+  display: inline;
+  padding: 0px;
+}
+
+#social ul li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin: auto;
+}
+
+#social a:link,
+#social a:focus,
+#social a:hover,
+#social a:active,
+#social a:visited {
+  color: #195c89;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+#social li:hover,
+#contactBtn:hover,
+#themes a:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+
+footer {
+  text-align: center;
+  color: #b0b0b0;
+  padding-top: 20px;
+}
