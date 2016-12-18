@@ -1,0 +1,9 @@
+{
+    "name": "Alexander Nizovoy",
+    "prof": "JavaScript Developer",
+    "about": "<p>Hello, my name is Alexander, but usually I subscribe Alex. I'm <span id=\"age\"></span> years old, I work for a small company, which is engaged in metal structures. <a href=\"http://lightdom.com/\">It is our company's web site.</a> Because the company is small, I work as a turner, welder, crane operator etc.</p><p>But nearly one year, I became interested in the sphere of Javascript. The last six months my interest became more insistent, I began to view online lessons, sign up for free courses.</p>",
+    "popupPhone": "phone: +380 63 722-84-31",
+    "popupEmail": "e-mail: <a href=\"mailto:axel.aka.alex@gmail.com\">axel.aka.alex@gmail.com</a>",
+    "social": "<ul><li><a href=\"https://www.facebook.com/alex.nizovoy\">Facebook</a></li><li><a href=\"https://vk.com/alexnizovoy\">Vkontakte</a></li><li><a href=\"https://ok.ru/alex.nizovy\">Ok.ru</a></li><li><a href=\"mailto:axel.aka.alex@gmail.com\">E-mail</a></li><li><a href=\"https://plus.google.com/u/0/101520856887196980094\">Google+</a></li><li><a href=\"https://github.com/AlexNizovoy\">GitHub</a></li></ul>",
+    "nameFooter": "Alexander Nizovoy"
+}

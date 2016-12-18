@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About me</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <div class="wrap" id="wrap">
+        <header>
+            <div id="themes">
+                <ul>
+                    <li><a href="#" id="whiteTheme"></a></li>
+                    <li><a href="#" id="blackTheme"></a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <h1>About me</h1>
+        </header>
+        <section id="content">
+            <div class="img-block"><img src="img/photo.jpg" alt="My photo"></div>
+            <div class="textblock">
+                <p id="name" data-editable="true">Name</p>
+                <p id="prof" data-editable="true">Profession</p>
+                <div id="about" data-editable="true">
+                    Some about
+                </div>
+                <a href="#" id="contactBtn">Contact me</a>
+            </div>
+            <div class="clear"></div>
+            <div id="pop-up">
+                <div id="pop-up-inner">
+                    <a href="#" id="closePopup">&#9746;</a>
+                    <p class="caption">Contact me</p>
+                    <p data-editable="true" id="popupPhone">phone:</p>
+                    <p data-editable="true" id="popupEmail">e-mail:</p>
+                </div>
+            </div>
+            <div id="social">
+                Social links
+            </div>
+        </section>
+        <footer>
+            <p data-editable="true">&copy; <span id="year"></span>, <span id="nameFooter"></span></p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
