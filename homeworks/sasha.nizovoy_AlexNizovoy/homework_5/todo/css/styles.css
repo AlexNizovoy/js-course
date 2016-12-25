@@ -1,0 +1,34 @@
+body {
+  width: 900px;
+  background-color: lightgrey;
+  box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.unit {
+    border: 2px solid gray;
+    padding: 10px;
+    background-color: #abb88e;
+}
+
+[data-TODO-heading],
+[data-TODO-caption],
+[data-TODO-list] {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+[data-TODO-caption] {
+    background-color: #838b75;
+    border-bottom: none;
+    border-top: none;
+    padding: 5px 10px;
+}

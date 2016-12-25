@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TODO-list Application</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>TODO-list application</header>
+    <main>
+        <div data-TODO-heading class="unit">
+            <div data-TODO-manage>
+                <span data-TODO-addNew>addNew</span>
+                <span data-TODO-deleteAll>deleteAll</span>
+                <span data-TODO-markAllComplete>markAllComplete</span>
+            </div>
+            <div data-TODO-status>
+                <span data-TODO-status-Complete>Complete</span>
+                <span data-TODO-status-Incomplete>Incomplete</span>
+                <span data-TODO-status-All>All</span>
+            </div>
+            <div data-TODO-filter>
+                <span data-TODO-showAll>showAll</span>
+                <span data-TODO-showComplete>showComplete</span>
+                <span data-TODO-showIncomplete>showIncomplete</span>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div data-TODO-caption class="unit">Caption</div>
+        <div data-TODO-list class="unit">
+            <div data-TODO-item class="unit">
+                <span data-TODO-item-text>Item text</span>
+                <span data-TODO-item-delete class="hidden">&#2718;</span>
+                <span data-TODO-item-complete class="hidden">&#2714;</span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year">2016</span>, Alex Nizovoy</p>
+    </footer>
+    <script type="text/javascript">
+        document.getElementById("year").innerHTML = (new Date()).getFullYear();
+    </script>
+</body>
+</html>
