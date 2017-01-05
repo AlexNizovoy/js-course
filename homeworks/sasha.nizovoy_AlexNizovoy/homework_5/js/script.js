@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.body.className = localStorage.theme;
     } else {
         document.body.className = "whiteTheme"
-    }
+    };
     var themes = document.querySelectorAll("#themes ul li a");
     themes.forEach(function(elem) {
         elem.addEventListener("click", function(e) {
