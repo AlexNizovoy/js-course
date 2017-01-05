@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", function() {
     // Adding switch themes
     if (localStorage.theme) {
         document.body.className = localStorage.theme;
+    } else {
+        document.body.className = "whiteTheme"
     }
     var themes = document.querySelectorAll("#themes ul li a");
     themes.forEach(function(elem) {
