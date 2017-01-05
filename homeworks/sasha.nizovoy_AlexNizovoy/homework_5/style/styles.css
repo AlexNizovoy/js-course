@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
+body {
+  color: #333;
+  background-color: white;
+}
+
 .whiteTheme {
   color: #333;
   background-color: white;
